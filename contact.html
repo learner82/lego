@@ -1,0 +1,132 @@
+
+
+
+<html>
+
+<head>
+
+<meta charset="utf-8">  <!-- για να αναγνωριζει ελληνικα, σε περιπτωση που δεν τα πιανει-->
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<title>	Contact		</title>
+
+<style type="text/css">
+.auto-style1 {
+	margin-left: 0px;
+}
+.auto-style2 {
+	font-size: large;
+}
+.auto-style3 {
+	margin-top: 0px;
+}
+</style>
+
+</head>
+
+
+<body link="blue" alink="green" vlink="white">
+
+<div class="main" style="width: 95%; height: 95%">
+
+<div class="logo" style="width: 12%; height: 12%">
+<img src="images/logo1.png" width="65" height="52">
+<img src="images/logo2.jpg" width="72" height="53" class="auto-style3">
+
+</div>
+
+<div class="social" style="width: 15%; height: 14%">
+
+<ul>
+<li> <a href="https://www.facebook.com/"><img src="images/fb.jpg" width="59" height="51"> </a></li>
+
+	<li> 
+	<a href="http://www.twiter.com/"><img src="images/twitter.png" width="46" height="53" class="auto-style1"> </a> </li>
+</ul>
+</div>
+
+<div class="menu">
+
+<ul>
+<li> <a href="home.html"> Home </a> </li>
+<li> <a href="company.html"> About Us </a> </li>
+<li> <a href="contact.html"> Contact  </a> </li>
+<li> <a href="products.html"> Products </a> </li>
+
+
+</ul>
+</div>
+
+<div>
+<ol>
+<li> <a href="https://goo.gl/maps/nV7BuxQQ5tS2"> Κέντρικο </a> </li>
+<br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.3368650047005!2d23.743096315826158!3d37.99260237972043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1a2b47fab130d%3A0x57d42d65faa2f0c5!2zzqPPhM61z4bOrM69zr_PhSDOms6_z4XOvM6xzr3Ov8-NzrTOtyA0NiwgzpHOuM6uzr3OsSAxMTQgNzQ!5e0!3m2!1sel!2sgr!4v1478647846924" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+<br>
+<p> Σ. Κουμανούδη 46, 11474, Αθήνα , 210-6432153 </p><br>
+
+<li> <a href="https://goo.gl/maps/faoMpxMFMEM2">  Παράρτημα </a> </li>
+<br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3146.831915293686!2d23.75862371561498!3d37.93435701073435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a1bd8853a5371b%3A0x30f53b50ad631313!2zzqDOsc-BzrHOuM-Nz4HOsSAxOCwgzpfOu865zr_Pjc-Azr_Ou863IDE2MyA0Mw!5e0!3m2!1sel!2sgr!4v1478649449165" width="300" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+<p> Παραθύρα 18. 16343, Ηλιούπολη, 213-2556788 </p> 
+<br>
+
+</ol>
+</div>
+
+<div class="contact">
+
+<h3> Φόρμα Επικοινωνίας </h3>
+
+<form name="Contact_Form" method="post" action="eggrafh.html">
+
+'
+<p> Όνομα <input type="text" name="first_name"placeholder="Ονομα" required oninvalid="this.setCustomValidity('Πρέπει να συμπληρώσετε το Όνομα')"> </p>  <!-- το placeholder einai pou emfanizei ta axna grammata apo pisw-->
+<p> Επώνυμο <input type="text" name="last_name" placeholder="Επώνυμο" required oninvalid="this.setCustomValidity('Πρέπει να συμπληρώσετε το Επώνυμο')"> </p>
+<p> Τηλέφωνο <input type="text" name="telephone" placeholder="Τηλέφωνο" required oninvalid="this.setCustomValidity('Πρέπει να συμπληρώσετε το Τηλέφωνο')"> </p>
+
+<br>
+
+
+<p> Φύλο <br>
+<input type="radio" name="gender"> Aνδρας
+<br>
+<input type="radio" name="gender"> Γυναίκα
+</p>
+
+<p> Σχόλια <br>
+<textarea row="5" cols="25" > </textarea>
+</p>
+<br><br>
+<p> Χώρα <br>
+<select size="1" required oninvalid="this.setCustomValidity('Πρέπει να συμπληρώσετε την Χώρα')">
+<option label="country" selected disabled> Επιλέξτε χώρα </option>  <!-- allos tropos <option selected desabled> επιλέξτε χώρα</option>-->
+<option name="Greece"> Ελλάδα </option>
+<option name="Frence"> Γαλλία </option>
+<option name="Italy"> Ιταλία </option>
+<option name="Germany"> Γερμανία </option>
+</select>
+</p>
+<br>
+
+<p> <input type="checkbox" name="agree" required oninvalid="this.setCustomValidity('Πρέπει να αποδεχτείτε τους όρους')"> Αποδέχομαι </p>
+
+<br>
+
+<p><input type="submit" value="Υποβολή" name="B1" style="cursor: pointer;">
+<input type="reset" value="Καθαρισμός" name="B2" style="cursor: pointer;"> </p>
+
+<p> email <input type= "text" name= "Email"  size="25" placeholder= "Πληκτρολογήστε το Email σας" required oninvalid="this.setCustomValidity('Πρέπει να συμπληρώσετε το Email σας')"> </p>
+
+<p><input type="submit" value="Εγγραφή" name="B1" style="cursor: pointer;">
+<input type="reset" value="Καθαρισμός" name="B2" style="cursor: pointer;"> </p>
+
+<p> <input type="checkbox" name="agree"> Επιθυμώ να λαμβάνω ενημερώσεις </p>
+ 
+</div>
+
+</div>
+</body>
+
+</html>

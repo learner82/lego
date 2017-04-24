@@ -1,0 +1,244 @@
+﻿
+
+body
+
+{
+background-image:url("../images/bg.jpg");
+color : yellow;
+}
+
+
+.main
+{ 
+Background-image: url("../images/1.jpg");
+margin-top:2%;
+width:95%;
+height:95%;
+margin: 0 auto; /*aytomato resize thn eikona oso bazw keimeno*/
+overflow: auto;
+/*background-repeat: no-repeat;*/
+background-attachment: scroll ;
+
+
+}
+
+.main2
+{ 
+Background-image: url("../images/2.jpg");
+margin-top:2%;
+width:95%;
+height:95%;
+margin: 0 auto; /*aytomato resize thn eikona oso bazw keimeno*/
+overflow: auto;
+/*background-repeat: no-repeat;*/
+background-attachment: scroll ;
+color: blue ;
+
+}
+
+.col1
+{
+	width: 20%;
+	float: left;
+	margin-left: 6%;
+	text-align: justify;
+	font-family: Trebuchet Ms;
+	font-size: 15px;
+	/*opacity: 0.7;  h entolh opacity kanei axna ta pragmata, edw me oso pio mikro toso pio axna. times 0(diafanes) ews 1(original) */
+	padding: 1%;
+	margin-top: 1%;
+	height: 46%
+}
+
+.col2
+{
+	width: 20%;
+	float: left;
+	margin-left: 6%;
+	margin-right: 2%;
+	text-align: justify;
+	font-family: Trebuchet Ms;
+	font-size: 15px;
+	/*opacity: 0.7;  h entolh opacity kanei axna ta pragmata, edw me oso pio mikro toso pio axna. times 0(diafanes) ews 1(original) */
+	padding: 1%;
+	margin-top: 1%;
+	height: 46%
+	
+}
+
+.col2 img: hover
+{
+	width: 500px;
+	hright: 500px;
+}
+
+.pinakas
+
+{
+	font-family: Trebuchet Ms;
+	font-size: 15px;
+	color: blue;
+	margin: 1%;
+}
+
+.lightvideo
+{
+    clear: both;
+	float:center;
+	width:50%;
+	margin:auto;
+	
+}	
+
+
+.perigrafh
+
+{
+	color: blue;
+	font-size:15px;
+	font-family: Trebuchet Ms;
+	text-align: justified;
+	padding: 2.5%;
+}	
+.perigrafh ul
+
+{
+	text-align: left;
+	padding: 3%;
+	
+}
+.logo
+
+{ 
+width: 30%; 
+height:30%;
+margin: 1.5%;
+float: left;
+}
+
+.social
+{
+width: 20%; 
+height:12%;
+float: right;
+margin: 0;
+}
+
+.social ul li
+{
+display: inline;
+}
+
+.menu
+{
+
+clear: both;
+text-align: center;
+font-size:25px;
+font-family: Trebuchet Ms;
+background-color:aqua;
+width:80%;
+Margin: auto;
+}
+
+.menu ul li
+{
+display: inline;
+padding: 6%;
+
+}
+
+.menu ul 
+{
+border-top: 3px white solid;
+border-bottom: 3px white solid;
+/*margin-left: 0.2%;
+margin-right: 0.2%;*/
+margin-top:0.2%;
+}
+
+
+
+.leftimage
+{
+	float:left;
+	width:35%;
+	margin:4%;
+	
+}	
+
+.rightimage
+{
+	float:right;
+	width:35%;
+	margin:4%;
+	Padding-right:1.5%
+}	
+
+.leftimage img
+{
+	opacity:0.4;
+}
+
+.rightimage img
+{
+	opacity:0.4;
+}
+
+.leftimage img:hover
+{
+	opacity:1;
+}
+
+.rightimage img:hover
+{
+	opacity:1;
+}
+
+
+
+
+
+
+/*gia to contact*/
+.adress
+{
+font-size:14px;
+font-family: Trebuchet ms;
+	
+
+}
+
+.contact
+{
+padding: 1%;
+clear: both;
+text-align: justify;
+font-size:14px;
+font-family: Trebuchet ms;
+border-radius: 10px;
+}
+
+textarea
+{
+	resize: none;
+}
+
+#motion img
+{
+margin-top: 50px;
+margin-left: 10px;
+position: relative;
+-webkit-animation: kinisi 20s;
+animation: kinisi 20s;
+repeat;
+}
+
+@-webkit-keyframes kinisi
+{
+0% {left: 0px; top: -50px;}
+25% {left: -190px; top:-50px;}
+50% {left: -190px; top:100px;}
+75% {left: 0px; top: 100px;}
+100% {left: 0px; top: 0px;}
+}

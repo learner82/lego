@@ -1,0 +1,125 @@
+﻿
+
+
+<html>
+
+<head>
+
+<meta charset="utf-8">  <!-- για να αναγνωριζει ελληνικα, σε περιπτωση που δεν τα πιανει-->
+
+<script src="javascript/javascript.js"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<title>	Contact		</title>
+
+<style type="text/css">
+.auto-style1 {
+	margin-left: 0px;
+}
+.auto-style2 {
+	font-size: large;
+}
+.auto-style3 {
+	margin-top: 0px;
+}
+</style>
+
+</head>
+
+
+<body link="blue" alink="green" vlink="white">
+
+<div class="main" style="width: 95%; height: 95%">
+
+<div class="logo" style="width: 12%; height: 12%">
+<img src="images/logo1.png" width="65" height="52">
+<img src="images/logo2.jpg" width="72" height="53" class="auto-style3">
+
+</div>
+
+<div class="social" style="width: 15%; height: 14%">
+
+<ul>
+<li> <a href="https://www.facebook.com/"><img src="images/fb.jpg" width="59" height="51"> </a></li>
+
+	<li> 
+	<a href="http://www.twiter.com/"><img src="images/twitter.png" width="46" height="53" class="auto-style1"> </a> </li>
+</ul>
+</div>
+
+<div class="menu">
+
+<ul>
+<li> <a href="home.html"> Home </a> </li>
+<li> <a href="company.html"> About Us </a> </li>
+<li> <div class="dropdown"><button class="dropbtn">Contact</button><div class="dropdown-content"> 
+<a href="address.html"> Address  </a>
+<a href="contact info.html"> Contact  </a>
+ </div></div> </li>
+<li> <div class="dropdown"><button class="dropbtn">Products</button><div class="dropdown-content">
+<a href="lego_Creator_Modular_Buildings.html">  Lego Creator  </a>
+<a href="lepin_Creator_Modular_Buildings.html"> Lepin Creator </a>
+<a href="lego_starwars.html"> Lego Star Wars </a>
+<a href="lepin_starwars.html">Lepin Star Wars </a>
+
+</div></div><!--<a href="products.html"> Products </a>--> </li>
+
+
+</ul>
+</div>
+<br>
+
+
+<div class="contact" >
+
+<h3> Φόρμα Επικοινωνίας </h3>
+
+<form name="Contact_Form" method="post"  onsubmit="validate()" action="eggrafh.html">
+
+
+ <p> Όνομα <input type="text" name="first_name" placeholder= "Ονομα "  oninvalid="this.setCustomValidity('Πρέπει να συμπληρώσετε το Όνομα')" style="border-radius:5px;"> </p>  <!-- το placeholder einai pou emfanizei ta axna grammata apo pisw-->
+     <p> Επώνυμο <input type="text" name="last_name" placeholder="Επώνυμο "  oninvalid="this.setCustomValidity('Πρέπει να συμπληρώσετε το Επώνυμο')"style="border-radius:5px;"> </p>
+<p> Τηλέφωνο <input type="text" name="telephone" placeholder="Τηλέφωνο"  oninvalid="this.setCustomValidity('Πρέπει να συμπληρώσετε το Τηλέφωνο')"style="border-radius:5px;"> </p>
+     <p> Email <input type="text" name="Email" placeholder="Email"  oninvalid="this.setCustomValidity('Πρέπει να συμπληρώσετε το Email')"style="border-radius:5px;"> </p>
+
+<br>
+
+
+<p> Φύλο <br>
+<input type="radio" name="gender"> Aνδρας
+<br>
+<input type="radio" name="gender"> Γυναίκα
+</p>
+
+<p> Σχόλια <br>
+<textarea row="5" cols="25" > </textarea>
+</p>
+<br><br>
+<p> Χώρα <br>
+<select size="1" required >
+<option label="country" selected disabled> Επιλέξτε χώρα </option>  <!-- allos tropos <option selected desabled> επιλέξτε χώρα</option>-->
+<option name="Greece"> Ελλάδα </option>
+<option name="Frence"> Γαλλία </option>
+<option name="Italy"> Ιταλία </option>
+<option name="Germany"> Γερμανία </option>
+</select>
+</p>
+<br>
+
+<p> <input type="checkbox" name="agree" required > Αποδέχομαι τους όρους</p>
+
+<br>
+
+<p><input type="submit" value="Υποβολή" name="B1" style="cursor: pointer;">
+<input type="reset" value="Καθαρισμός" name="B2" style="cursor: pointer;"> </p>
+
+
+</div>
+
+ 
+
+
+</div>
+</body>
+
+</html>
